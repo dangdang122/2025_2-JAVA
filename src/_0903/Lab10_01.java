@@ -22,13 +22,13 @@ public class Lab10_01 {
             System.out.print("1번째 정수 입력: ");
             int num1 = sc.nextInt();
 
+            if (num1 == -1) {
+                System.out.println("프로그램 종료");
+                break;
+            }
+
             System.out.print("연산자 입력 : ");
             char op = sc.next().charAt(0);
-
-            if (op == 'q') {
-                System.out.println("프로그램 종료");
-               break;
-           }
 
             System.out.print("2번째 정수 입력: ");
             int num2 = sc.nextInt();
