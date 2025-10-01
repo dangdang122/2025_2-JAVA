@@ -35,7 +35,7 @@ public class report {
         } catch (IOException e) {
             System.out.println("파일 입출력 중 오류 발생.");
         } finally {
-            // 자원 정리
+           
             try {
                 if (fileWriter != null) fileWriter.close();
                 if (fileReader != null) fileReader.close();
